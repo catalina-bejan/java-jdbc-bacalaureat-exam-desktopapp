@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="33" red="cc" type="rgb"/>
+    </Property>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+        <TitledBorder justification="3" position="2" title="Contestatie">
+          <Font PropertyName="font" name="SansSerif" size="18" style="0"/>
+          <Color PropertyName="color" blue="33" green="ff" red="ff" type="rgb"/>
+        </TitledBorder>
+      </Border>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="contestatie1CheckBox" min="-2" pref="149" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="statusLabel1" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="4" max="32767" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="569" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="contestatie3CheckBox" min="-2" pref="149" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="statusLabel3" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="contestatie2CheckBox" min="-2" pref="149" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="statusLabel2" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="211" max="-2" attributes="0"/>
+              <Component id="trimiteContestatieButton" min="-2" pref="131" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="contestatie1CheckBox" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="statusLabel1" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="contestatie2CheckBox" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="statusLabel2" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="contestatie3CheckBox" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="statusLabel3" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="trimiteContestatieButton" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JCheckBox" name="contestatie1CheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Contestatie proba1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="contestatie2CheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Contestatie proba2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="contestatie3CheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Contestatie proba3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="trimiteContestatieButton">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="33" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Trimite contestatie"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="trimiteContestatieButtonMousePressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Bifeaza probele la care doresti sa faci contestatie, apoi apasa butonul &quot;Trimite contestatie&quot;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="statusLabel1">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="statusLabel2">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="statusLabel3">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
